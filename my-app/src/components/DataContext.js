@@ -26,7 +26,7 @@ export const DataProvider = ({ children }) => {
       }) 
         .then(response => response.text())
         .then(data => setInputVal(data))
-        .catch(error => setInputVal("Right now Backend Server is not working. Please visit later & Sorry for the inconvenience !."));
+        .catch(error => setInputVal("Right now Backend Server is not working. Please visit later & Sorry for the inconvenience !"));
     }
    
   }, []);
